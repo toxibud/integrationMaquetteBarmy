@@ -1,0 +1,352 @@
+@font-face 
+{
+    font-family: 'outrun_futureregular';
+    src: url('fonts/outrun_future/outrun_future-webfont.woff2') format('woff2'),
+         url('fonts/outrun_future/outrun_future-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face 
+{
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body
+{
+	background-color: #000000;
+	background-image: url('images/background.jpg');
+	background-repeat: no-repeat;
+	background-position: center top; 
+	min-width: 540px;
+	height: 3730px;
+}
+.container
+{
+	max-width: 1140px;
+	min-width: 540px;
+}
+
+
+
+h2
+{
+	font-family: 'outrun_futureregular';
+	color: #ffffff;
+	font-size: 3em;
+	margin-left: 80px;
+	margin-top: -30px;
+}
+h3
+{
+	font-family: 'outrun_futureregular';
+	color: #95a7ff;
+	margin-left: 80px;
+}
+p
+{
+	font-family: 'montserratregular';
+	color: #ffffff;
+	font-size: 0.7em;
+	margin-left: 80px;
+	line-height: 300%;
+}
+
+
+
+header
+{
+	margin-top: 120px;
+	text-align: center;
+}
+.bt_menu
+{
+	font-family: 'outrun_futureregular';
+	text-decoration: none;
+	color: #ffffff;
+} 
+.bt_menu:hover
+{
+	background-image: url('images/survol.png');
+	background-repeat: no-repeat;
+	background-size: 100% 50%;
+	background-position: 0% 80%;
+}
+
+
+
+#section_top
+{
+	margin-top: 170px;
+	text-align: center;
+}
+#bt_watch_more
+{
+	margin-top: 100px;
+}
+
+
+
+#section_about
+{
+	margin-top: 470px;
+}
+#graff_1
+{
+	position: relative;
+	left: -100px;
+	top: -120px;
+}
+#graff_2
+{
+	position: relative;
+	left: -210px;
+	top: -290px;
+}
+
+
+
+#section_join
+{
+	text-align: center;
+	margin-top: 190px;
+}
+#titre_section_join
+{
+	font-size: 2.8em;
+	margin-left: 0px;
+}
+#para_section_join
+{
+	margin-left: 0px;
+	height: 100px;
+}
+#row_graff
+{
+	margin-top: 270px;
+}
+#graff_3
+{
+	position: relative;
+	width: 250px;
+	height: auto;
+}
+#graff_4
+{
+	position: relative;
+	width: 250px;
+	height: auto;
+}
+#graff_5
+{
+	position: relative;
+	width: 250px;
+	height: auto;
+}
+#graff_6
+{
+	position: relative;
+	width: 250px;
+	height: auto;
+}
+#join_now
+{
+	margin-top: 215px;
+}
+#bt_join_now
+{
+	margin-top: 30px;
+}
+#row_graff img:hover
+{
+	filter: brightness(300%); 
+}
+
+
+
+footer
+{
+	text-align: center;
+}
+#para_footer
+{
+	font-family: 'outrun_futureregular';
+	color: #313131;
+	font-size: 1.2em;
+	margin-top: 280px;
+	margin-left: 0px;
+}
+
+
+
+@media (max-width: 1550px)  
+{
+	#graff_2
+	{
+		left: -50px;
+	}
+	#graff_3
+	{
+		left: 0px;
+	}
+	#graff_4
+	{
+		left: 0px;
+	}
+	#graff_5
+	{
+		right: 0px;
+	}
+	#graff_6
+	{
+		right: 0px;
+	}
+}
+
+
+
+@media (max-width: 1199px)
+{
+	h2
+	{
+		font-size: 2.5em;
+		margin-top: -20px;
+	}
+	#titre_section_join
+	{
+		margin-top: -30px;
+	}
+	#row_graff
+	{
+		margin-top: 285px;
+	}
+	#join_now
+	{
+		margin-top: 200px;
+	}
+	#graff_3
+	{
+		top: -15px;
+	}
+	#graff_4
+	{
+		top: -15px;
+	}
+	#graff_5
+	{
+		top: -15px;
+	}
+	#graff_6
+	{
+		top: -15px;
+	}
+
+} 
+
+
+
+@media (max-width: 991px) 
+{
+	header
+	{
+		margin-top: 80px;
+	}
+	.bt_menu
+	{
+		font-size: 2em;
+	}
+
+
+	#section_top
+	{
+		margin-top: 100px;
+	}
+	#logo
+	{
+		width: 500px;
+		height: auto;
+	}
+
+
+	#section_about
+	{
+		margin-top: 360px;
+		margin-left: -100px;
+		text-align: center;
+	}
+	#graff_1
+	{
+		width: 250px;
+		height: auto;
+		left: 30px;
+		top: 100px;
+	}
+	#graff_2
+	{
+		width: 250px;
+		height: auto;
+		left: 50px;
+		top: 100px;
+	}
+	#para_section_about
+	{
+		height: 100px;
+	}
+
+
+	#section_join
+	{
+		margin-top: 582px;
+	}
+	#row_graff
+	{
+		margin-top: 170px;
+	}
+	#graff_3
+	{
+		top: -20px;
+	}
+	#graff_4
+	{
+		top: -20px;
+	}
+	#graff_5
+	{
+		top: 20px;
+	}
+	#graff_6
+	{
+		top: 20px;
+	}
+	#join_now
+	{
+		margin-top: 123px;
+	}
+	#bt_join_now
+	{
+		margin-top: 29px;
+	}
+}
+
+
+
+@media (max-width: 767px) 
+{
+	#row_graff
+	{
+		margin-top: 170px;
+	}
+	#join_now
+	{
+		margin-top: 121px;
+	}
+	#bt_join_now
+	{
+		margin-top: 30px;
+	}
+}
