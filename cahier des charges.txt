@@ -1,0 +1,15 @@
+
+Client : Barmy graffiti crew
+
+Besoin : Un site vitrine pour promouvoir sont groupe de graffeur.
+
+Détails du site :
+
+	-Un menu avec 4 liens en entête qui réagissent au survol de la souris.
+	-Une 1er section avec le logo suivi d'un bouton "watch more".
+	-Une 2eme section avec 2 photos et un espace texte (titre, sous-titre, paragraphe,...).
+	-Une 3eme section avec un titre, un paragraphe et une sélection de 4 photos qui réagissent au passage de souris.
+	-Une dernière section pour inviter un utilisateur à rejoindre le groupe.
+	-Un pied de page pour le copyright.
+
+	-L'ensemble doit être responsive pour s'adapter aussi bien sûr PC que sur Smartphone.
